@@ -1,0 +1,636 @@
+********************************************
+<<<<<<<<<<<<<<<P.L.E.1 Engine>>>>>>>>>>>>>>>
+********************************************
+ copyright (c) 2004 3Division Entertainment
+********************************************
+
+Air Guard Full v1.15 (c) 3Division Entertainment 2004
+Nacitavam nastavenia z config.ini
+>>>Inicializijem ENGINE
+Nastavenia:
+   Sirka: 1024  Vyska: 768
+   Windowed: 0 
+   Max: 12000  Min: 10.00
+   Stencil Shadows: 1 
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\background.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\Loading.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\progress.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\logo3DGames.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\logoPLE.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\logobecher.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\bechergame.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\logoplane.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\logoair.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\logoarcade.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\logopilot.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\cursor.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\credits.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\eng\campaing.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\eng\battle.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\eng\credits.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\eng\exit.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\eng\back.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\1.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\2.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\3.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\4.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\5.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\6.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\7.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\8.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\9.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\10.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\11.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\12.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\13.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\14.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\missions\15.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng0.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng1.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng2.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng3.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng4.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng5.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng6.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng7.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng8.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng9.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng10.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng11.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng12.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng13.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng14.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\briefringeng15.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\but1eng.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\but2eng.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\brief\but3eng.jpg
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\Window1.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\Window2.bmp
+  Textura vytvorena
+Vytvaram 2D Panel NumFrames: 1
+  AddFrame: 0 Menu\Window3.bmp
+  Textura vytvorena
+inicializacia g_pd3dDevice  uspesna
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 493
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 336
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 336
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 682
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 25
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 252
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 12
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 44
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 2
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 168
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 46
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\budova.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\budovadestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 30
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\tovaren.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Tovarendestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 19
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\komin.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Komindestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 42
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\sklad.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\skladdestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 30
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\stan.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Standestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 12
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\letisko.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Letiskodestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 18
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\hangar.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Hangardestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 2
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\dom1.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Dom1destroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 28
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\dom2.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Dom2destroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 106
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\kostol.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Kostoldestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 246
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\tank1.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Tank1destroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 246
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\tank2.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Tank2destroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 258
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\conv1.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Conv1destroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 295
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\conv2.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Conv2destroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 277
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\messerschmitt\messernormal.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 142
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\mesto.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Mestodestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 42
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\mesto.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Mestodestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 24
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\mesto.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Mestodestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 32
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\mesto.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\Mestodestroy.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 72
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\billboard.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 4
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\strom1.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 4
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\strom2.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 4
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\strom3.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 4
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\strom4.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 64
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\palma1.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 56
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\structures\palma2.bmp
+  Textura modelu vytvorena
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 28
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 64
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 28
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 2
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 2
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 2
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 2
+  Vertex Buffer vytvoreny
+Inicializujem ASE model
+  NumFrames: 1
+  NumFaces: 2
+  Vertex Buffer vytvoreny
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\texturepole1024.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\texturepust1024.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\detailpole.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\detailpust.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\water.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\spitfire\spitfirenormal1.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\messerschmitt\messernormal.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\Volker\volkernormal.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\bombarder\bombardernormal.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\spitfire\kabina.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\spitfire\bomb.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\vrtula\vrtula.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\fireball1.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\fireball2.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\spitfire\spitfirenormal2.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\spitfire\spitfiredestroy.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\spitfire\enviro.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\messerschmitt\messerdestroy.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\Volker\Volkerdestroy.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\bombarder\bombarderdestroy.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\truck\trucknormal.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Models\truck\truckDestroy.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\sleft.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\sright.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\sfront.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\sback.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\stop.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\pilot1.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\pilot1fire.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\pilot2.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\pilot2fire.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\pilot3.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\pilot3fire.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\pilotdeath.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\bevel.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\tbk.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\truc.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\bombs.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\kompaseng.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\msgback.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\mapa.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\frag1.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\frag2.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\frag3.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\frag4.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\frag5.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\gui\frag6.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng0.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng1.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng2.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng3.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng4.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng5.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng6.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng7.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng8.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng9.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng10.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng11.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng12.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng13.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng14.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\briefringeng15.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\but1eng.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\but2eng.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\brief\but3eng.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\bullet.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\bomb.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\smoke.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\fire.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\hit.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\particle.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0001.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0002.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0003.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0004.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0005.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0006.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0007.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0008.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0009.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Particles\ex0010.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\10.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\20.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\30.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\40.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\50.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\60.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\70.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\80.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\90.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Menu\score\100.bmp
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\lens1.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\lens2.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\lens3.jpg
+  Textura modelu vytvorena
+  Textura: C:\.CLAUDE PROJECTS\airguardmod\AirGuardCPP\Scene\lens4.jpg
+  Textura modelu vytvorena
